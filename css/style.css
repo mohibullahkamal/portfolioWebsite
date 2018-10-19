@@ -1,3 +1,12 @@
+/*
+COLORS PALETTE USED:
+Red:     #cc171d
+Black:   #162336
+Green:   #325765
+*/
+
+
+
 @font-face {
     font-family: "linea-basic-10";
     src: url("fonts/linea-basic-10.eot");
@@ -732,8 +741,8 @@ body {
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    line-height: 1.7;
-    color: #777
+    line-height: 1.7;   /* 1.7 times bigger than default line height */
+    color: #777;   /* grey */
 }
 
 .heading-primary {
