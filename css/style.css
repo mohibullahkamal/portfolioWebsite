@@ -1818,7 +1818,11 @@ only screen and (hover: none) {
 .header {
     height: 85vh;    /* Viewport Height determines how much height left at end of screen; bottom of image gets cropped */
     background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126, 213, 111, 0.8)), to(rgba(40, 180, 133, 0.8))), url(../img/hero-small.jpg);
-    background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.8), rgba(40, 180, 133, 0.8)), url(../img/hero-small.jpg);
+    /* 1 background images; 2 gradient colors which are transparent one going from one shade of green to another; to right-bottom says which direction will color gradient travel */
+    background-image: linear-gradient(to right bottom, 
+        rgba(126, 213, 111, 0.8), 
+        rgba(40, 180, 133, 0.8)), 
+        url(../img/hero-small.jpg);
     background-size: cover;
     background-position: top;
     position: relative
